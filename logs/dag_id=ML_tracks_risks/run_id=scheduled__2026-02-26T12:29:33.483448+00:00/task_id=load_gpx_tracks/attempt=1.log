@@ -1,0 +1,13 @@
+{"timestamp":"2026-02-26T12:29:34.828721Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-26T12:29:34.829273Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/tracks_risks.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-26T12:29:34.858239Z","level":"warning","event":"The `airflow.operators.bash.BashOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.bash.BashOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/tracks_risks.py","lineno":6,"logger":"py.warnings"}
+{"timestamp":"2026-02-26T12:29:34.858362Z","level":"warning","event":"The `airflow.operators.python.PythonOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.python.PythonOperator'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/tracks_risks.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2026-02-26T12:29:34.875187Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-26T12:29:34.875307Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-26T12:29:34.875366Z","level":"info","event":"Current task name:load_gpx_tracks","logger":"task.stdout"}
+{"timestamp":"2026-02-26T12:29:34.875418Z","level":"info","event":"Dag name:ML_tracks_risks","logger":"task.stdout"}
+{"timestamp":"2026-02-26T12:29:34.877508Z","level":"info","event":"['fds', 'test2.txt', 'test.txt']","logger":"task.stdout"}
+{"timestamp":"2026-02-26T12:29:34.878348Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-26T12:29:34.894530Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-26T12:29:34.894644Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-26T12:29:34.895129Z","level":"info","event":"Task operator:<Task(PythonOperator): load_gpx_tracks>","logger":"task.stdout"}
